@@ -1,0 +1,27 @@
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header__block {
+  background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
+  height: 135vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%); }
+
+.main__block {
+  height: 100vh;
+  width: 100%; }
+
+.footer__block {
+  background: #070439;
+  height: 75vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%); }

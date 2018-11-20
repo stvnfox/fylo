@@ -1,0 +1,14 @@
+{
+  "name": "fylo",
+  "version": "1.0.0",
+  "description": "Fylo by STVN",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss main.css -w"
+  },
+  "author": "STVN*",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
