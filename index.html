@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
   
-  <title>Frontend Mentor | Fylo landing page with features grid section</title>
+  <title>Fylo by STVN</title>
 
 </head>
 <body>
@@ -19,25 +19,36 @@
   <header class="header__block">
     <div class="header__block--nav">
       <div class="nav__block--logo">
-
+        <img src="./images/logo.svg" alt="Fylo Logo">
       </div>
       <nav class="nav__block--menu">
-        <div class="menu__block--item">
-          Sign In
-        </div>
-        <div class="menu__block--item">
-          Sign Up 
-        </div>
+        <span class="menu__block--item1">
+          <a href="#">Sign In</a>
+        </span>
+
+        <a href="#">
+          <span class="menu__block--item2">
+            Sign Up
+          </span>
+        </a>  
       </nav> 
     </div> 
     
-    <div class="header__block--info">
-      <div class="info__block--head">
-        All Your Files In One Secure Location, Accessible Anywhere.
+    <div class="header__block--grid">
+      <div class="header__block--info">
+        <div class="info__block--head">
+          All Your Files In One Secure<br>
+          Location, Accessible Anywhere.
+        </div>
+        <a href="#">
+          <div class="info__block--button">
+            Get Started
+          </div>
+        </a>
       </div>
-      <div class="info__block--button">
-        Get Started
-      </div>
+      <div class="header__block--image">
+        <img src="./images/illustration-hero.svg" alt="Hero Illustration"  width="420px"> 
+      </div>    
     </div>
   </header>
   
@@ -48,14 +59,21 @@
     </div>  
     
     <div class="main__block--row">
+      <div class="mainrow__image">
+        <img src="./images/illustration-features.svg" alt="Features image" width="370px">
+      </div>
+
       <div class="mainrow__block">
         <div class="mainrow__block--head">
-          All platforms, all devices, all your files
+          All platforms, all<br>
+          devices, all your files
         </div>
         <div class="mainrow__block--text">    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-          egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
-          leo, ac accumsan magna tellus sed leo.
+          Lorem ipsum dolor sit amet,<br>
+          consectetur adipiscing elit. Aliquam<br> 
+          egestas, elit sit amet fermentum viverra,<br>
+          ipsum dolor vehicula leo, ac accumsan<br>
+          magna tellus sed leo.
         </div>  
       </div>
 
@@ -64,9 +82,11 @@
           Real-time collaboration
         </div>
         <div class="mainrow__block--text"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-          egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
-          leo, ac accumsan magna tellus sed leo.
+          Lorem ipsum dolor sit amet,<br>
+          consectetur adipiscing elit. Aliquam<br> 
+          egestas, elit sit amet fermentum viverra,<br>
+          ipsum dolor vehicula leo, ac accumsan<br>
+          magna tellus sed leo.
         </div>
       </div>
       
@@ -75,9 +95,11 @@
           Security you can trust
         </div>
         <div class="mainrow__block--text">   
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-          egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
-          leo, ac accumsan magna tellus sed leo.
+          Lorem ipsum dolor sit amet,<br>
+          consectetur adipiscing elit. Aliquam<br> 
+          egestas, elit sit amet fermentum viverra,<br>
+          ipsum dolor vehicula leo, ac accumsan<br>
+          magna tellus sed leo.
         </div>
       </div>
       
@@ -86,9 +108,11 @@
           Automatic backups
         </div>
         <div class="mainrow__block--text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-          egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, 
-          ac accumsan magna tellus sed leo.
+          Lorem ipsum dolor sit amet,<br>
+          consectetur adipiscing elit. Aliquam<br> 
+          egestas, elit sit amet fermentum viverra,<br>
+          ipsum dolor vehicula leo, ac accumsan<br>
+          magna tellus sed leo.
         </div>
       </div>    
     </div>
@@ -99,15 +123,15 @@
       </div>
       <div class="foot__block--text">
         It only takes a minute to sign up and our free starter tier is extremely 
-        generous. If you have any questions, our support team would be happy to 
-        help you.
+        generous. If you have<br>
+        any questions, our support team would be happy to help you.
       </div>
       <div class="foot__block--submit">
         <div class="submit__block--input">
-
+          <input type="email" id="email" placeholder="email@example.com">
         </div>
         <div class="submit__block--button">
-          Join
+          <input type="button" value="Join">
         </div>
       </div>
     </div>
