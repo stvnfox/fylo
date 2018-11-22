@@ -1,0 +1,27 @@
+// COLORS
+$primary-softblue: #4b6cb7;
+$primary-darkblue: #182848;
+$primary-verydarkblue: #040326 ; 	
+
+$accent-green: #05D69B;
+$accent-darkblue: #282385;
+
+$neutral-grey: #808080;
+
+// CENTER
+@mixin align-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+// FONTS
+@mixin font-body {
+    font-family: Open Sans;
+}   
+
+@mixin font-heading {
+    font-family: Raleway;
+    font-weight: 700;
+}   
