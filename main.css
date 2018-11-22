@@ -1,10 +1,3 @@
-.attribution {
-  font-size: 11px;
-  text-align: center; }
-
-.attribution a {
-  color: #3e52a3; }
-
 body {
   margin: 0;
   padding: 0;
@@ -15,6 +8,10 @@ a {
   text-decoration: none;
   color: inherit;
   display: block; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
 
 .header__block {
   background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
@@ -161,7 +158,63 @@ a {
 
 .footer__block {
   background: #040326;
-  height: 75vh;
+  height: 85vh;
   width: 100%;
   clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
-  color: white; }
+  color: white;
+  line-height: 2.1rem; }
+  .footer__block .footer__block--row {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    grid-gap: 2rem; }
+    .footer__block .footer__block--row .footerrow__block--company {
+      margin-top: 14rem;
+      margin-left: 4rem;
+      border-right: .1rem solid white; }
+      .footer__block .footer__block--row .footerrow__block--company .footerrow__block--logo {
+        margin-top: 1rem; }
+      .footer__block .footer__block--row .footerrow__block--company .footerrow__block--contact {
+        margin-top: 1rem;
+        font-size: .8rem;
+        word-spacing: 1rem; }
+    .footer__block .footer__block--row .footerrow__block--menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      margin-top: 14rem;
+      margin-left: 1.2rem;
+      border-right: .1rem solid white; }
+      .footer__block .footer__block--row .footerrow__block--menu .footerrow__block--head {
+        font-weight: 700; }
+      .footer__block .footer__block--row .footerrow__block--menu .footerrow__block--sub {
+        font-size: .8rem; }
+    .footer__block .footer__block--row .footerrow__block--follow {
+      margin-top: 14rem;
+      margin-right: 4rem;
+      margin-left: 4rem; }
+      .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--bold {
+        font-size: .9rem;
+        font-weight: 700; }
+      .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--input {
+        margin-top: 1rem; }
+        .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--input input {
+          width: 20.25rem;
+          height: 2rem;
+          font-family: Open Sans;
+          border: none;
+          border-radius: 4px;
+          padding: 4px 7px; }
+      .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--button {
+        text-align: right;
+        margin-top: 1rem; }
+        .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--button input {
+          width: 8rem;
+          height: 2.4rem;
+          background-color: #05D69B;
+          font-family: Open Sans;
+          font-size: 1rem;
+          font-weight: 600;
+          color: white;
+          border-radius: 4px;
+          border: none; }
