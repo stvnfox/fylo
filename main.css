@@ -229,7 +229,7 @@ ul {
           border: none; }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .header__block {
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); }
     .header__block .header__block--nav {
@@ -378,6 +378,8 @@ ul {
         .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--input {
           margin-top: 1rem; }
           .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--input input {
+            display: block;
+            margin: auto;
             width: 14rem;
             height: 2rem;
             font-family: Open Sans;
@@ -385,10 +387,12 @@ ul {
             border-radius: 4px;
             padding: 4px 7px; }
         .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--button {
-          text-align: right;
+          text-align: left;
           margin-top: 1rem; }
           .footer__block .footer__block--row .footerrow__block--follow .footerrow__block--button input {
-            width: 8rem;
+            display: block;
+            margin: auto;
+            width: 14.9rem;
             height: 2.4rem;
             background-color: #05D69B;
             font-family: Open Sans;
