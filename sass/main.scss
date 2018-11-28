@@ -39,6 +39,10 @@ ul {
             margin-right: auto;
         }
 
+        .nav__block--mobilelogo {
+            display: none;
+        }
+
         .nav__block--menu {
             display: flex;
 
@@ -90,7 +94,7 @@ ul {
                 font-size: 2rem;
                 color: white;
 
-                margin-top: 25%;
+                margin-top: 30%;
                 line-height: 2.8rem;          
             }
 
@@ -112,8 +116,12 @@ ul {
         .header__block--image {
             grid-area: image;
 
-            margin-top: 10%;
-            margin-left: 8rem;
+            text-align: right;
+            margin-top: 15%;
+            margin-right: 6rem;
+        }
+        .header__block--mobileimage {
+            display: none;
         }
     }
 }
@@ -129,6 +137,9 @@ ul {
 
         margin-top: 8rem;
         text-align: center;
+    }
+    .main__block--mobilehead {
+        display: none;
     }
 
     .main__block--row {
@@ -147,6 +158,9 @@ ul {
         .mainrow__image {
             grid-area: image;
             margin-top: 1rem;
+        }
+        .mainrow__mobileimage {
+            display: none;
         }
 
         .mainrow__block {
@@ -252,7 +266,7 @@ ul {
         
 
         .footerrow__block--company {
-            margin-top: 14rem;
+            margin-top: 35vh;
             margin-left: 4rem;
             border-right: .1rem solid white;
 
@@ -274,7 +288,7 @@ ul {
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 1rem;
 
-            margin-top: 14rem;
+            margin-top: 35vh;
             margin-left: 1.2rem;
 
             border-right: .1rem solid white;
@@ -289,7 +303,7 @@ ul {
         }
         
         .footerrow__block--follow {
-            margin-top: 14rem;
+            margin-top: 35vh;
             margin-right: 4rem;
             margin-left: 4rem;
 
@@ -334,3 +348,6 @@ ul {
         }
     }
 }
+
+// import media quiries
+@import "responsive";
