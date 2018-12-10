@@ -23,9 +23,9 @@ ul {
 
 .header__block {
     background: linear-gradient(90deg, $primary-darkblue 0%, $primary-softblue 100%);
-    height: 135vh;
+    height: 120vh;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
 
     .header__block--nav {
         display: flex;
@@ -127,7 +127,7 @@ ul {
 }
 
 .main__block {
-    height: 150vh;
+    height: 145vh;
     width: 100%;
 
     .main__block--head {
@@ -251,7 +251,7 @@ ul {
     background: $primary-verydarkblue;
     height: 85vh;
     width: 100%;
-    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 
     color: white;
 
