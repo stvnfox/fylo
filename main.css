@@ -742,7 +742,7 @@ ul {
 /* iPads (landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .header__block {
-    height: 160vh;
+    height: 170vh;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); }
     .header__block .header__block--nav {
       padding-left: 1rem; }
@@ -778,7 +778,7 @@ ul {
       .header__block .header__block--grid .header__block--mobileimage {
         display: none; }
   .main__block {
-    height: 200vh;
+    height: 220vh;
     width: 100%; }
     .main__block .main__block--head {
       display: none; }
@@ -838,7 +838,7 @@ ul {
             font-size: .9rem; }
   .footer__block {
     background: #040326;
-    height: 150vh;
+    height: 170vh;
     width: 100%;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     color: white;
